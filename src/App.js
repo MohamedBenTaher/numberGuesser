@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+ import Counter from './Components/Counter';
+ import List from './Components/List';
+ import NumberGame from './Components/NumberGame';
 function App() {
+  // const myList=[
+  //   {id:1,name:'item1'},
+  //   {id:2,name:'item2'},
+  //   {id:3,name:'item3'},
+  //   {id:4,name:'item4'},
+  //]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NumberGame />
+      // {/* <Counter /> */}
+      // {/* <List list={myList}/> */}
   );
 }
 
